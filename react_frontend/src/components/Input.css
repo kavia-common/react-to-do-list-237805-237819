@@ -1,0 +1,23 @@
+.kavia-input {
+  padding: 0.5rem 1.25rem;
+  font-size: 1rem;
+  outline: none;
+  border: 1.5px solid var(--border-color, #e5e7eb);
+  border-radius: 6px;
+  background: var(--bg-secondary, #f8f9fa);
+  color: var(--text-primary, #111827);
+  transition: border 0.2s, box-shadow 0.2s;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.kavia-input:focus,
+.kavia-input:hover {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59,130,246,0.15);
+}
+
+.kavia-input[disabled] {
+  opacity: 0.65;
+  background: #f1f5f9;
+}

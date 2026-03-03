@@ -1,0 +1,13 @@
+.kavia-card {
+  background: var(--surface, #fff);
+  border: 1.5px solid var(--border-color, #e5e7eb);
+  border-radius: 10px;
+  box-shadow: 0 1px 16px rgba(59,130,246,0.06);
+  padding: 1.25rem 1.5rem;
+  margin: 0.5rem 0;
+  transition: box-shadow 0.15s;
+}
+
+.kavia-card:hover {
+  box-shadow: 0 4px 32px rgba(59,130,246,0.10);
+}

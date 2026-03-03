@@ -1,0 +1,28 @@
+.kavia-btn {
+  padding: 0.5rem 1.5rem;
+  background: var(--button-bg, #3b82f6);
+  color: var(--button-text, #fff);
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.06);
+}
+
+.kavia-btn:focus,
+.kavia-btn:hover {
+  background: #2563eb; /* darker primary */
+  color: #fff;
+}
+
+.kavia-btn:active {
+  background: #1d4ed8;
+}
+
+.kavia-btn[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

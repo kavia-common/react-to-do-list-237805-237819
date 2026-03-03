@@ -1,0 +1,21 @@
+.kavia-filter {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.kavia-filter .kavia-btn {
+  background: transparent;
+  color: var(--text-primary, #111827);
+  border: 1.5px solid var(--border-color, #e5e7eb);
+  box-shadow: none;
+  transition: background 0.15s, color 0.15s;
+}
+
+.kavia-filter .kavia-btn.active,
+.kavia-filter .kavia-btn[aria-pressed="true"] {
+  background: var(--primary, #3b82f6);
+  color: #fff;
+  border: 1.5px solid var(--primary, #3b82f6);
+}
